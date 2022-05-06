@@ -1,3 +1,8 @@
+resource "aws_ssm_parameter" "JLA-parameter" {
+  name  = "JLA-parameter"
+  type  = "String"
+  value = "tall8"
+}
 #
 ## Firstly create a random generated password to use in secrets.
 #
